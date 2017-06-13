@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.1)  13 JUN 2017 10:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.1)  13 JUN 2017 10:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./Resume.tex
+**Resume.tex
 (./Resume.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
@@ -287,25 +287,28 @@ File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 \newparindent=\skip47
 \doubleparindent=\skip48
 )
-(./Resume.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (./Resume.aux)
 \openout1 = `Resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Try loading font information for OT1+qpl on input line 21.
- (/usr/share/texmf/tex/latex/tex-gyre/ot1qpl.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Try loading font information for OT1+qpl on input line 24.
+
+(/usr/share/texmf/tex/latex/tex-gyre/ot1qpl.fd
 File: ot1qpl.fd 2009/09/25 v1.2 font definition file for OT1/qpl
 )
 *geometry* driver: auto-detecting
@@ -343,7 +346,7 @@ File: ot1qpl.fd 2009/09/25 v1.2 font definition file for OT1/qpl
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box52
-Package hyperref Info: Link coloring ON on input line 21.
+Package hyperref Info: Link coloring ON on input line 24.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -352,9 +355,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count113
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
 
 (./Resume.out) (./Resume.out)
 \@outlinefile=\write3
@@ -375,7 +378,7 @@ LaTeX Info: Redefining \nameref on input line 21.
 \makeMPintoPDFobject=\count119
 \everyMPtoPDFconversion=\toks18
 )
-LaTeX Info: Redefining \microtypecontext on input line 21.
+LaTeX Info: Redefining \microtypecontext on input line 24.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -388,76 +391,76 @@ Package microtype Info: No adjustment of character kerning.
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
-Overfull \vbox (5.09949pt too high) detected at line 26
+Overfull \vbox (5.09949pt too high) detected at line 29
  []
 
 
 Package relsize Warning: Font size 40.0pt is too large.
-(relsize)                Using 24.88pt instead on input line 35.
+(relsize)                Using 24.88pt instead on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <24.88> on input line 35.
+(Font)              <24.88> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 35.
+(Font)              <20.74> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 35.
+(Font)              <17.28> on input line 38.
 
 
 Package relsize Warning: Font size 40.0pt is too large.
-(relsize)                Using 24.88pt instead on input line 36.
+(relsize)                Using 24.88pt instead on input line 39.
 
 
 Package relsize Warning: Font size 40.0pt is too large.
-(relsize)                Using 24.88pt instead on input line 37.
+(relsize)                Using 24.88pt instead on input line 40.
 
 Package microtype Info: Character `013' is missing
 (microtype)             in font `OT1/qpl/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 83.
+(Font)              <7> on input line 86.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 83.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
+(Font)              <5> on input line 86.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--142
+Underfull \hbox (badness 10000) in paragraph at lines 142--145
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
  (./Resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 142.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `Resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 142.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 7936 strings out of 494953
- 119617 string characters out of 6180978
- 249219 words of memory out of 5000000
- 11115 multiletter control sequences out of 15000+600000
+ 7942 strings out of 494953
+ 119806 string characters out of 6180978
+ 249295 words of memory out of 5000000
+ 11118 multiletter control sequences out of 15000+600000
  52252 words of font info for 64 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
- 37i,5n,38p,659b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,5n,38p,657b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-rm-sc.enc}{/usr/share/texmf/font
 s/enc/dvips/tex-gyre/q-rm.enc}</usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplb.pfb></usr
 /share/texmf/fonts/type1/public/tex-gyre/qplr.pfb></usr/share/texmf/fonts/type1
 /public/tex-gyre/qplri.pfb>
-Output written on Resume.pdf (1 page, 102587 bytes).
+Output written on Resume.pdf (1 page, 102585 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
