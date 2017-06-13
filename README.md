@@ -2,7 +2,7 @@
 
 This is the most recent version of my resume. 
 
-I decided that hosting it on github yieded several benefits for me:
+I decided that hosting it on github yieded several benefits:
 
 * Publicly accessible -- I can clone my files from anywhere and edit my resume there
 * Practice -- By updating major changes onto GitHub, I keep basic git commands from going rusty
