@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.1)  14 JUN 2017 16:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.1)  14 JUN 2017 18:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -452,11 +452,11 @@ Package rerunfilecheck Info: File `Resume.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
  ) 
 Here is how much of TeX's memory you used:
- 8233 strings out of 494953
- 124693 string characters out of 6180978
+ 8231 strings out of 494953
+ 124673 string characters out of 6180978
  257667 words of memory out of 5000000
  11396 multiletter control sequences out of 15000+600000
- 49585 words of font info for 73 fonts, out of 8000000 for 9000
+ 49441 words of font info for 72 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  37i,5n,38p,619b,367s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-rm-sc.enc}{/usr/share/texmf/font
@@ -465,7 +465,7 @@ s/enc/dvips/tex-gyre/q-rm.enc}</usr/share/texlive/texmf-dist/fonts/type1/public
 onts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplb.pfb></usr
 /share/texmf/fonts/type1/public/tex-gyre/qplr.pfb></usr/share/texmf/fonts/type1
 /public/tex-gyre/qplri.pfb>
-Output written on Resume.pdf (1 page, 105816 bytes).
+Output written on Resume.pdf (1 page, 106027 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
