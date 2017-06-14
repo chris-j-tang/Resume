@@ -1,4 +1,4 @@
-# Resume
+# Résumé
 
 This is the most recent version of my resume. 
 
