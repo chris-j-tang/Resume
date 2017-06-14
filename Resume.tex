@@ -21,6 +21,9 @@
 % Indents the first paragraph
 \usepackage{indentfirst}
 
+% Removes indentation for in a list environment.
+\usepackage{enumitem}
+
 \begin{document}  % begin the content of the document
 \sloppy  % this to relax whitespacing in favour of straight margins
 
@@ -44,15 +47,16 @@
 
 \roottitle{Summary}  % a root section title
 
-\vspace{-1.3em}  % some vertical spacing
-\begin{multicols}{2}  % open a multicolumn environment
-\noindent \emph{Personal Statement here.}
+\vspace{-1.8em}  % some vertical spacing
+% \begin{multicols}{2}  % open a multicolumn environment
+{\bodytext \noindent \emph{Self-motivated starter who believes in pursuing quality over quantity in a fast-paced world where quality is often secondary to shipping code.}}
 % \\
 % \\
 % Biography
-\end{multicols}
+% \end{multicols}
 
-\spacedhrule{-0.2em}{-0.4em}
+\vspace{0.5em}
+\spacedhrule{0em}{-0.4em}
 
 \roottitle{Education}
 
@@ -73,13 +77,13 @@
     {\textsc{Troy, NY}} {%
     \headedsubsection
       {Research Assistant \& System Administrator}
-      {February \apo17 -- present}
+      {Feb \apo17 -- present}
       {\bodytext{
         \renewcommand\labelitemi{{\boldmath$\cdot$}}
-        \begin{itemize}
+        \begin{itemize}[leftmargin=*] % Decrease space before indent to reduce white space
           \item Implemented Ubuntu Linux server data migration remotely using Bash shell to better distribute server payload, increase server security, and expand storage space
           \item Worked with senior sysadmins to reimage corrupted central server from backups 
-          \item Configured bash scripts to automate maintaining user accounts using Kerberos database and to restart laboratory tools on server restarts
+          \item Configured and wrote bash scripts to automate user account maintenace and to restart laboratory tools and dependencies on server restarts
         \end{itemize}
       }}
   }
@@ -91,22 +95,33 @@
         {Feb \apo17 -- present}
         {\bodytext{
           \renewcommand\labelitemi{{\boldmath$\cdot$}}
-          \begin{itemize}
-            \item Streamlined the core command rendering engine driver
+          \begin{itemize}[leftmargin=*]
+            \item Worked with a Microsoft \acr{FTE} in {\bf{Typescript}} to streamline the core command rendering engine driver 
             \item Designed and implemented prevention of banned keywords for variable names
-            \item Increased functionality to libraries
+            \item Increased functionality to GLS libraries for languages such as {\bf{C\#}}, {\bf{Javascript}} and {\bf{Python}}.
           \end{itemize}
         }}
     }
 
 \headedsection
   {\href{http://coling2018.org}{27th International Conference on Computational Linguistics \acr{(COLING 2018)}}}
-  {\textsc{Santa Fe, NM}} {%
-  \headedsubsection
+  {\textsc{Santa Fe, NM}}
+  {\headedsubsection
     {Webmaster}
     {April \apo17 -- present}
     {\bodytext{Filler}}
-}
+  }
+
+\headedsection
+  {\href{https://en.wikipedia.org/wiki/Wikipedia:Getting_to_Philosophy}{Wikipedia Philosophy Crawler}}
+  {\headedsubsection
+    {Personal Project}
+    {Winter \apo16}
+    {\bodytext{
+      Made it a personal challenge to use {\bf{Python}} to access and pull information from the Internet. Around this time, I was introduced to the Wikipedia Philosophy phenomenom: clicking the first
+      non-italicized hyperlink not in parentheses on a page and all subsequent ones, will ultimately yield the philosophy page. 
+    }}
+  }
 
 \spacedhrule{0.5em}{-0.4em}
 
@@ -114,7 +129,8 @@
 
 \inlineheadsection  % special section that has an inline header with a 'hanging' paragraph
   {Technical expertise:}
-  {Leading and recruiting teams of software engineers.  Big fan of Agile methodologies, continuous delivery and functional programming.  Enjoys writing Ruby/\nsp Python/\nsp Java/\nsp \CPP~and Haskell.  Solid knowledge of the full web technology stack.  Able to architect \textit{and} implement distributed/\acr{HA} systems.  Strong Linux administration skills (e.g.\ Bash scripting, Apache/\acr{NGINX}, Postgres/My/No\acr{SQL}, ElasticSearch).  Well experienced with virtualization/containerization (Docker/Kubernetes, \acr{KVM}, Xen and several \acr{AWS} solutions) and DevOps (Puppet).  Emacs user.}
+  
+  % {Leading and recruiting teams of software engineers.  Big fan of Agile methodologies, continuous delivery and functional programming.  Enjoys writing Ruby/\nsp Python/\nsp Java/\nsp \CPP~and Haskell.  Solid knowledge of the full web technology stack.  Able to architect \textit{and} implement distributed/\acr{HA} systems.  Strong Linux administration skills (e.g.\ Bash scripting, Apache/\acr{NGINX}, Postgres/My/No\acr{SQL}, ElasticSearch).  Well experienced with virtualization/containerization (Docker/Kubernetes, \acr{KVM}, Xen and several \acr{AWS} solutions) and DevOps (Puppet).  Emacs user.}
 
 \vspace{0.5em}
 \inlineheadsection
@@ -128,7 +144,7 @@
 
 \inlineheadsection
   {Non-exhaustive and in alphabetical order:}
-  {art, Buddhism, cryptography, functional programming, Go (board game), history, music (from classical and jazz to Berlin-techno), \acr{NLP}, permaculture, philosophy, rock climbing, startups, travel, typography (e.g.\ graphic design, \LaTeX), \acr{UX}-design and vegan cuisine.}
+  % {art, Buddhism, cryptography, functional programming, Go (board game), history, music (from classical and jazz to Berlin-techno), \acr{NLP}, permaculture, philosophy, rock climbing, startups, travel, typography (e.g.\ graphic design, \LaTeX), \acr{UX}-design and vegan cuisine.}
 
 \spacedhrule{1.6em}{-0.4em}
 
