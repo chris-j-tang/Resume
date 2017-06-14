@@ -18,3 +18,7 @@ After cloning the repository, if you are building on a Linux, run this command i
 ```pdflatex ./Resume.tex```
 
 The resume, complete with your edits, should show up as `Resume.pdf` in the current directory.
+
+## License
+
+Résumé is currently under the [MIT](https://en.wikipedia.org/wiki/MIT_License) license. You are able to fork, edit, reuse and review the files in this repository freely.
