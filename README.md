@@ -14,6 +14,7 @@ I decided that hosting it on github yieded several benefits:
 ## Compilation
 
 After cloning the repository, if you are building on a Linux, run this command in terminal (while in the cloned directory) to build the resume with your edits:
+
 ```pdflatex ./Resume.tex```
 
 The resume, complete with your edits, should show up as `Resume.pdf` in the current directory.
