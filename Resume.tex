@@ -82,7 +82,7 @@
         \emph{Ubuntu Linux, Bash shell/scripts, Python, git, svn}
         \renewcommand\labelitemi{{\boldmath$\cdot$}}
         \begin{itemize}[leftmargin=*] % Decrease space before indent to reduce white space
-          \item Implemented entire server data migration remotely using ssh, scp and rsync in Bash shell to upgrade from an outdated 450G Ubuntu 10.04 server to two Ubuntu 16.04 4T servers and to increase security by limiting server accessibility and making backups
+          \item Implemented entire server data migration remotely using ssh, scp and rsync in Bash shell to upgrade from a physically unaccessible and outdated 450G Ubuntu 10.04 server to two Ubuntu 16.04 4T servers and to increase security by physically and remotely limiting server accessibility
           \item Reimaged remotely unaccessible and corrupted central server by physically copying over /home, /data and /etc files onto a backup, wiping the corrupted server, reinstalling the distro, repartitioning the server, and fetching backed up files ensure user privacy
           \item Configured and wrote bash scripts to automate user creation across servers and to restart mongod, Python/bash scripts necessary for lab projects' and data's remote accessibility on server restarts
         \end{itemize}
@@ -99,9 +99,9 @@
           \renewcommand\labelitemi{{\boldmath$\cdot$}}
           \begin{itemize}[leftmargin=*]
             \item Increased functionality, developed automated tests for GLS's math libraries for conversions from GLS commands to those of various supported object-oriented languages such as C\# or Java
-            \item Designed and implemented syntactical flexibility for GLS command conversions to Ruby for certain math commands by adding the base layout for Ruby's correct 
-            \item Worked with a Microsoft \acr{FTE} to streamline the core command rendering engine driver by recognizing unnecessary and superfluous steps taken by the parser and reducing or replacing functions called
-            \item Designed and implemented prevention of banned keywords for parameter variable names
+            \item Designed and implemented syntactical flexibility for GLS command conversions to Ruby for certain math commands by adding the base layout for Ruby's unique syntax for certain math commands 
+            \item Worked with a Microsoft \acr{FTE} to streamline the core command rendering engine driver by recognizing an unnecessary function called by the parser when preparing to render GLS commands into other languages and removing or replacing all corresponding calls and tests of it in the existing code
+            \item Designed and implemented prevention of banned keywords for variable names to prevent users from using invalid variable names by compiling a Typescript key/value map (hashtable) of invalid variable names in supported languages and including a function that returns the validity of a parameter
           \end{itemize}
         }}
     }
@@ -124,9 +124,9 @@
       \emph{Python, Beautiful Soup 4}
       \renewcommand\labelitemi{{\boldmath$\cdot$}}
       \begin{itemize}[leftmargin=*]
-        \item Designed and completed a Python script using a HTML parser to automate crawling through Wikipedia articles until the \href{https://en.wikipedia.org/wiki/Philosophy}{Philosophy} page is reached.
+        \item Designed and completed a Python script using a HTML parser to automate crawling through Wikipedia articles until the \href{https://en.wikipedia.org/wiki/Philosophy}{Philosophy} page is reached
         \item Scraped pages for hyperlinks, and used regex to remove those italicized or in parentheses
-        \item Implemented features such as avoiding possible repeats by storing visit history in Python dictionary and including the option of specifying a starting page or start randomly
+        \item Implemented features such as avoiding possible repeats by storing visit history in Python dictionary and including the option of specifying a starting page or start randomly via terminal input
       \end{itemize}
       % Made it a personal challenge to use {\bf{Python}} to access and pull information from the Internet. Around this time, I was introduced to the Wikipedia Philosophy phenomenom: clicking the first
       % non-italicized hyperlink not in parentheses on a page and all subsequent ones, will ultimately yield the \href{https://en.wikipedia.org/wiki/Philosophy}{Philosophy} page. Confronted by the difficulty of 
@@ -139,15 +139,15 @@
 \headedsection
 {\href{https://www.vexrobotics.com/}{VEX Robotics}}
 {\headedsubsection
-  {Team Leader \& Member}
+  {Team Leader}
   {Summer \apo15 -- Fall \apo15}
   {\bodytext{
     \emph{RobotC, Arduino IDE, git}
     \renewcommand\labelitemi{{\boldmath$\cdot$}}
     \begin{itemize}
-      \item Led a team of 3 to build and code an autonomous robot to navigate through corridors using magnetic and proximity sensors
-      \item Led a team of 5 to construct and maintain a controlled-robot to play a version of basketball
-      \item Designed the underlying code base for the VEX competition with a team of 3
+      \item Oversaw building and coding of a controlled robot that played a version of basketball using a rubber band 'net' to scoop up and store multiple balls at once and a spinning motor of variable speeds with an adjustable chute to aim and launch balls at target nets to score
+      \item Managed construction and maintainance of an autonomous robot capable of navigating collision-less through corridors in a school-wide competition (placing 1st out of 8 teams) using magnetic and proximity sensors
+      \item Used VEX/FTC competition kits, and Arduinos
     \end{itemize}
   }}
 }
