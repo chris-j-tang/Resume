@@ -6,7 +6,7 @@
 % See the `README.md` file for more info.
 
 % Start a document with the here given default font size and paper size.
-\documentclass[11pt,a4paper]{article}
+\documentclass[10pt,a4paper]{article}
 
 % Set the page margins.
 \usepackage[a4paper,margin=0.75in]{geometry}
@@ -82,9 +82,9 @@
         \emph{Ubuntu Linux, Bash shell/scripts, Python, git, svn}
         \renewcommand\labelitemi{{\boldmath$\cdot$}}
         \begin{itemize}[leftmargin=*] % Decrease space before indent to reduce white space
-          \item Implemented Ubuntu Linux server data migration remotely using Bash shell to better distribute server payload, increase server security, and expand storage space
-          \item Worked with senior sysadmins to reimage corrupted central server from backups 
-          \item Configured and wrote bash scripts to automate user account maintenace and to restart laboratory tools and scripts on server restarts
+          \item Implemented entire server data migration remotely using ssh, scp and rsync in Bash shell to upgrade from an outdated 450G Ubuntu 10.04 server to two Ubuntu 16.04 4T servers and to increase security by limiting server accessibility and making backups
+          \item Reimaged remotely unaccessible and corrupted central server by physically copying over /home, /data and /etc files onto a backup, wiping the corrupted server, reinstalling the distro, repartitioning the server, and fetching backed up files ensure user privacy
+          \item Configured and wrote bash scripts to automate user creation across servers and to restart mongod, Python/bash scripts necessary for lab projects' and data's remote accessibility on server restarts
         \end{itemize}
       }}
   }
@@ -95,12 +95,13 @@
         {Collaborator}
         {Feb \apo17 -- present}
         {\bodytext{
-          \emph{Typescript, C\#, Python, git}
+          \emph{Typescript, Python, git}
           \renewcommand\labelitemi{{\boldmath$\cdot$}}
           \begin{itemize}[leftmargin=*]
-            \item Worked with a Microsoft \acr{FTE} to streamline the core command rendering engine driver 
+            \item Increased functionality, developed automated tests for GLS's math libraries for conversions from GLS commands to those of various supported object-oriented languages such as C\# or Java
+            \item Designed and implemented syntactical flexibility for GLS command conversions to Ruby for certain math commands by adding the base layout for Ruby's correct 
+            \item Worked with a Microsoft \acr{FTE} to streamline the core command rendering engine driver by recognizing unnecessary and superfluous steps taken by the parser and reducing or replacing functions called
             \item Designed and implemented prevention of banned keywords for parameter variable names
-            \item Increased functionality to GLS libraries for conversions to various object-oriented languages.
           \end{itemize}
         }}
     }
@@ -169,12 +170,12 @@
 
 % \spacedhrule{1.6em}{-0.4em}
 
-\roottitle{Honors \& Awards}
-  \indent Dean's Honor List: Fall 2016 \& Spring 2017 \\
-  \indent Rensselaer Leadership Award \\      
-  \indent Rensselaer Recognition Award
+% \roottitle{Honors \& Awards}
+%   \indent Dean's Honor List: Fall 2016 \& Spring 2017 \\
+%   \indent Rensselaer Leadership Award \\      
+%   \indent Rensselaer Recognition Award
 
-\spacedhrule{1.6em}{-0.4em}
+% \spacedhrule{1.6em}{-0.4em}
 
 \roottitle{Interests}
 
